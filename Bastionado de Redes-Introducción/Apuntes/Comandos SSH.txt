@@ -1,7 +1,0 @@
-ip domain-name urko.com
-ip ssh version 2
-crypto key generate rsa
-username admin password cisco
-line vty 0 15
-transport input ssh
-login local
