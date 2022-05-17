@@ -1,0 +1,9 @@
+
+TELNET
+enable
+configure terminal
+enable secret cisco
+line vty 0 15  
+password cisco
+login
+end
